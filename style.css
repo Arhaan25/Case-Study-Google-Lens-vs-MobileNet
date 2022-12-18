@@ -1,0 +1,231 @@
+body {
+    background-image: linear-gradient(to right bottom, darkred, red, darkorange, orange, yellow, green, darkgreen, darkblue, blue, purple, darkviolet, violet, pink, black, brown);
+    font-style: italic;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-image: linear-gradient(to right bottom, darkred, red, darkorange, orange, yellow, green, darkgreen, darkblue, blue, purple, darkviolet, violet, pink, black, brown);
+    line-height: 5;
+    text-align: center;
+    text-shadow: 6px 6px 6px black;
+}
+
+.heading {
+    background-color: black;
+    color: white;
+}
+
+#main_title {
+    background-color: black;
+    color: white;
+}
+
+#sub_main_title {
+    background-color: black;
+    color: white;
+}
+
+#li_1 {
+    background-color: rgb(117, 1, 1);
+    color: rgb(245, 16, 16);
+}
+
+#mini_div_result_1 {
+    background-color: rgb(161, 4, 4);
+    color: rgb(230, 43, 43);
+}
+
+#h5_1a {
+    background-color: rgb(206, 3, 3);
+    color: rgb(231, 172, 171);
+}
+
+#h5_1b {
+    background-color: red;
+    color: rgb(255, 204, 203);
+}
+
+#li_2 {
+    background-color: rgb(192, 110, 10);
+    color: rgb(252, 170, 18);
+}
+
+#mini_div_result_2 {
+    background-color: rgb(223, 125, 6);
+    color: rgb(248, 176, 41);
+}
+
+#h5_2a {
+    background-color: rgb(218, 142, 3);
+    color: rgb(245, 179, 56);
+}
+
+#h5_2b {
+    background-color: rgb(233, 152, 3);
+    color: rgb(255, 198, 93);
+}
+
+#li_3 {
+    background-color: darkgoldenrod;
+    color: yellow;
+}
+
+#mini_div_result_3 {
+    background-color: rgb(218, 157, 5);
+    color: rgb(245, 245, 17);
+}
+
+#h5_3a {
+    background-color: goldenrod;
+    color: rgb(230, 230, 97);
+}
+
+#h5_3b {
+    background-color: rgb(224, 194, 24);
+    color: rgb(248, 248, 127);
+}
+
+#li_4 {
+    background-color: rgb(1, 71, 1);
+    color: rgb(4, 158, 4);
+}
+
+#mini_div_result_4 {
+    background-color: rgb(2, 87, 2);
+    color: rgb(6, 167, 6);
+}
+
+#h5_4a {
+    background-color: rgb(2, 110, 2);
+    color: rgb(129, 223, 129);
+}
+
+#h5_4b {
+    background-color: rgb(6, 150, 6);
+    color: rgb(130, 224, 130);
+}
+
+#li_5 {
+    background-color: rgb(1, 1, 102);
+    color: rgb(40, 40, 255);
+}
+
+#mini_div_result_5 {
+    background-color: rgb(1, 1, 113);
+    color: rgb(52, 52, 255);
+}
+
+#h5_5a {
+    background-color: rgb(3, 3, 173);
+    color: rgb(138, 194, 247);
+}
+
+#h5_5b {
+    background-color: rgb(1, 1, 210);
+    color: rgb(153, 203, 219);
+}
+
+#li_6 {
+    background-color: rgb(73, 0, 73);
+    color: rgb(150, 3, 150);
+}
+
+#mini_div_result_6 {
+    background-color: rgb(87, 0, 87);
+    color: rgb(165, 3, 165);
+}
+
+#h5_6a {
+    background-color: rgb(99, 1, 99);
+    color: rgb(175, 0, 175);
+}
+
+#h5_6b {
+    background-color: rgb(129, 0, 129);
+    color: rgb(211, 0, 211);
+}
+
+#li_7 {
+    background-color: rgb(115, 0, 165);
+    color: rgb(236, 117, 236);
+}
+
+#mini_div_result_7 {
+    background-color: rgb(124, 2, 177);
+    color: rgb(235, 122, 235);
+}
+
+#h5_7a {
+    background-color: rgb(212, 95, 212);
+    color: rgb(241, 168, 241);
+}
+
+#h5_7b {
+    background-color: rgb(224, 107, 224);
+    color: rgb(245, 172, 245);
+}
+
+#li_8 {
+    background-color: rgb(170, 60, 79);
+    color: rgb(235, 121, 141);
+}
+
+#mini_div_result_8 {
+    background-color: rgb(189, 59, 85);
+    color: rgb(243, 147, 164);
+}
+
+#h5_8a {
+    background-color: rgb(223, 100, 120);
+    color: rgb(241, 159, 171);
+}
+
+#h5_8b {
+    background-color: rgb(228, 110, 129);
+    color: rgb(252, 185, 195);
+}
+
+#li_9 {
+    background-color: rgb(83, 17, 17);
+    color: rgb(163, 41, 41);
+}
+
+#mini_div_result_9 {
+    background-color: rgb(95, 25, 25);
+    color: rgb(167, 52, 52);
+}
+
+#h5_9a {
+    background-color: rgb(112, 28, 28);
+    color: rgb(177, 71, 71);
+}
+
+#h5_9b {
+    background-color: rgb(131, 30, 30);
+    color: rgb(202, 76, 76);
+}
+
+#li_10 {
+    background-color: rgb(102, 102, 102);
+    color: rgb(175, 175, 175);
+}
+
+#mini_div_result_10 {
+    background-color: rgb(119, 119, 119);
+    color: rgb(182, 181, 181);
+}
+
+#h5_10a {
+    background-color: rgb(131, 131, 131);
+    color: lightgray;
+}
+
+#h5_10b {
+    background-color: rgb(145, 145, 145);
+    color: rgb(212, 212, 212);
+}

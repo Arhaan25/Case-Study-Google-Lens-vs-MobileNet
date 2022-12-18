@@ -1,0 +1,277 @@
+<html>
+    <head>
+        <title>Case Study Google Lens V/S Mobilenet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <center>
+            <h1 class="btn btn-primary heading">Case Study Google Lens V/S Mobilenet</h1>
+            <h3 id="main_title">
+                <img src="Google_Lens.webp" width="200" height="200"> V/S 
+                <h4 id="sub_main_title">Mobilenet</h4>
+            </h3>
+            <hr>
+            <ol>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_1">
+                        <b>Test Image - </b>
+                        <img src="ZBag.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_1a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Bagpack,School Bag</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_1b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Bagpack,School Bag</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_1">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>It is a Special Tie !!!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_2">
+                        <b>Test Image - </b>
+                        <img src="ZBottle.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_2a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Shampoo, Soap , Soap Bottle, Oil, Water Bottle</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_2b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Candle, Taper, Waxlight, Water Bottle</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_2">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>Google Lens won by a Close Call!!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_3">
+                        <b>Test Image - </b>
+                        <img src="ZFootball_Boots.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_3a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Football Shoes</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_3b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Green Mamba, Green Lizard, Cucumber, Windsor Tie, Vaccume Cleaner</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_3">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>Google Lens won Sensically(With a lot of Sense)!!!!!!!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_4">
+                        <b>Test Image - </b>
+                        <img src="ZHelmet.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_4a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Helmet</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_4b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Helmet</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_4">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>It's a Close Call Tie.!!!!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_5">
+                        <b>Test Image - </b>
+                        <img src="ZKit.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_5a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Stationary Kit</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_5b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Wallet, Billboard, Notecase</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_5">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>Google Lens wins it becoming more popular !!!!!!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_6">
+                        <b>Test Image - </b>
+                        <img src="ZNotebook.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_6a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Nothing !!</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_6b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Wallet, Billboard, Notecase</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_6">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>Both Cases almost suffured a tie, but , Mobilenet Won this One!!!!!!!!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_7">
+                        <b>Test Image - </b>
+                        <img src="ZPillow.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_7a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Pillow</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_7b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Balloon, Igniter, Matchstick</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_7">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>MobileNet is dumping dumb answers.! Google Lens is more accurate!!!!!!!!!!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_8">
+                        <b>Test Image - </b>
+                        <img src="ZSoccer_Ball.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_8a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Tortoise, Sea Turtles, Nike Scorpion Ball, Soccer Ball</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_8b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Soccer Ball</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_8">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>!!!!! MobileNet is better. One-Hit 90% accuracy.!!!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_9">
+                        <b>Test Image - </b>
+                        <img src="ZFlower_Pot.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_9a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Plants, Flower Pot</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_9b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Plants, Flower Pot</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_9">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>Whelming Tie#!@!!#!@!</h4>
+                    </div>
+                </div>
+                <br>
+                <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12" id="li_10">
+                        <b>Test Image - </b>
+                        <img src="ZTennis_Ball.jpeg" class="img-responsive">
+                    </li>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_10a">
+                        Output on <b>Google_Lens</b> - 
+                        <span>Nothing</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12" id="h5_10b">
+                        Output on <b>Mobilenet Model</b> - 
+                        <span>Tennis Ball</span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12" id="mini_div_result_10">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>Mo..MobileNet is more accurate !!!!!!!!!!!!!! * a 1000</h4>
+                    </div>
+                </div>
+                <br>
+                <hr>
+            </ol>
+            <div class="copy_right_footer">
+                Developed by - Arhaan Singh Punia
+            </div>
+            <hr>
+            <hr>
+            <span>
+                <ol>
+                    <h1 class="btn btn-success">
+                        I have tested <b>10 images</b>.
+                        Out of that there were <b>3 Ties</b>.
+                        <b><b>Google Lens</b></b> got <b>4 Correct(not including Ties)</b>.
+                        <b><b>MobileNet</b></b> also got <b>3 Correct(not including Ties)</b>.
+                    </h1>
+                    <h1 class="btn btn-info">
+                        So, <b><b>Google Lens</b></b> is more accurate than <b><b>MobileNet</b></b> and.
+                        Thus, according to my Case Study,
+                        <b><b>Google Lens</b></b> is more accurate than <b><b>MobileNet</b></b> (Just by a bit).
+                    </h1>
+                </ol>                                                     
+            </span>
+        <hr><hr><hr><hr><hr><hr><hr><hr>
+        </center>
+    </body>
+</html>
